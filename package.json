@@ -1,0 +1,24 @@
+{
+  "name": "@corvid-agent/env",
+  "version": "1.0.0",
+  "description": "Type-safe environment variable parsing with validation, defaults, and transforms",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": ["env", "environment", "config", "typed", "validation", "typescript"],
+  "author": "corvid-agent",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corvid-agent/env.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/bun": "latest"
+  }
+}
