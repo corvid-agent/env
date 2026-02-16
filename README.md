@@ -1,5 +1,9 @@
 # @corvid-agent/env
 
+[![CI](https://github.com/corvid-agent/env/actions/workflows/ci.yml/badge.svg)](https://github.com/corvid-agent/env/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/@corvid-agent/env)](https://www.npmjs.com/package/@corvid-agent/env)
+![zero deps](https://img.shields.io/badge/dependencies-0-brightgreen)
+
 Type-safe environment variable parsing with validation, defaults, and transforms. Zero dependencies. TypeScript-first.
 
 ## Install
